@@ -1,0 +1,50 @@
+body{
+    width: 85%;
+    margin: 0 auto; 
+    background-color: rgb(46, 63, 127);
+    counter-reset: estrofa verso;
+}
+
+header {
+    margin: 10px 30%;
+    font-style: italic;
+    text-align: center;
+    background-color: #A85F11;
+    color: rgb(238, 231, 240);
+    
+}
+
+h1{
+    color: rgb(41, 149, 41);
+    text-align:center;  
+}
+h2{
+    text-align: center;
+    color: rgb(187, 183, 52);
+}
+/*Aqui hace el for antes de las parrafo y me las cuentas*/
+h3::before{
+    counter-increment: parrafo;
+    content: "" counter(parrafo) ": ";
+}
+
+h3{
+    text-align: center;
+    color: rgb(38, 111, 38);
+}
+p{
+    text-align: center;
+    color:white;
+}
+span{
+    color: yellow;
+    font-size: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+/*Aqui hace el for antes de las lineas y me las cuentas*/
+span::before{
+    counter-increment: linea;
+    content: "linea " counter(linea) ": ";
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Respiracion.xsl"?>
+<Texto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+
+	
+	<titulo>Técnica de respiración</titulo>
+	<artista>Autor: Wim Hof</artista>
+	
+	<parrafo>
+
+		<linea>Acuéstate en el piso o cama boca arriba.</linea>
+		<linea>Realiza 30 a 40 respiraciones poderosas </linea>
+		<linea>En la última inspiración profunda (ya sea la 30 o 40, la que elijas), soltar el aire levemente (no vacíes tus pulmones).</linea>
+		<linea>Mantener la respiración el tiempo que puedas (1, 2 minutos, incluso más).</linea>
+		<linea>Cuando sientas la necesidad de respirar, hacer una inhalación profunda, sostenerla 10 a 15 segundos, y luego exhalar para repetir el proceso</linea>
+		<linea>Repite el proceso de nuevo 1, 2, 3 o 4 veces más (las veces que puedas).</linea>
+		
+	</parrafo>
+	
+	
+</Texto>
